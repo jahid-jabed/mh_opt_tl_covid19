@@ -20,3 +20,25 @@
 + [Models](https://drive.google.com/drive/folders/1wmcpabmqLIaDCWFhYOdzjUqDBCTCLsfp "Best Optimized Models"): All best models data found during optimization and exploitation are stored [here](https://drive.google.com/drive/folders/1wmcpabmqLIaDCWFhYOdzjUqDBCTCLsfp "Best Optimized Models").
 + [TL-Models](https://drive.google.com/drive/folders/1uKNctQweu3tPD74sU7MY0XcKobA-2MBv "Best Transfer Learning Models"): All best models data found during training of transfer learning models are stored [here](https://drive.google.com/drive/folders/1uKNctQweu3tPD74sU7MY0XcKobA-2MBv "Best Transfer Learning Models").
 
+**D. Codes**
++ Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.[ipynb](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/IPYNB/Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.ipynb)/[py](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/PY/transfer_learning_with_optimization_of_covid_19_image_classification.py): Codes of optimization process on transfer learning for covid-19 identification.
+  - `collect_Data()`
+    * This function used to collect data based on the classes (folders, each folder represent a class in dataset folder) from given drive path.
+  - Pickle
+    * Pickle is used for store and retrive data from given drive path.
+  - `train_test_split(...)
+    * Used for data spliting for cross validation during training.
+  - `display_multiple_img(...)`
+    * Used for display some random data images with thier classes.
+  - `train(...), compile(...), fit(...), ...` etc
+    * Used for training the model and performance measures.
+  - `initial_individuals(model)`
+    * Used for initialization of unique individual for the initial population.
+  - `mutate(individual, model)`
+    * Used for mutation of `individual` with a mutation factor and provide unique gene.
+  - `crossover(individuals, model)`
+    * Used for crossover operation on a population (`individuals`) and provide unique `individual` in population using uniform crossover.
+  - `evolve(individuals, fitness, model)`
+    * Used for evolution of `individuals` based on `fitness` for next generation. In this work evolution is done upto 30 generations.
+  - Performance Measures
+    * After optimization of models performance measures for best 3 models are conduct based on accuracies, confusion matrix, etc.
