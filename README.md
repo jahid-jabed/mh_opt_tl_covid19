@@ -21,7 +21,7 @@
 + [TL-Models](https://drive.google.com/drive/folders/1uKNctQweu3tPD74sU7MY0XcKobA-2MBv "Best Transfer Learning Models"): All best models data found during training of transfer learning models are stored [here](https://drive.google.com/drive/folders/1uKNctQweu3tPD74sU7MY0XcKobA-2MBv "Best Transfer Learning Models").
 
 **D. Codes**
-+ Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.[ipynb](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/IPYNB/Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.ipynb)/[py](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/PY/transfer_learning_with_optimization_of_covid_19_image_classification.py): Codes of optimization process on transfer learning for covid-19 identification.
++ ***Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.[ipynb](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/IPYNB/Transfer_Learning_with_Optimization_of_Covid_19_Image_Classification.ipynb)/[py](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/PY/transfer_learning_with_optimization_of_covid_19_image_classification.py):*** Codes on optimization process on transfer learning for covid-19 identification.
   - `collect_Data()`
     * This function used to collect data based on the classes (folders, each folder represent a class in dataset folder) from given drive path.
   - Pickle
@@ -42,3 +42,10 @@
     * Used for evolution of `individuals` based on `fitness` for next generation. In this work evolution is done upto 30 generations.
   - Performance Measures
     * After optimization of models performance measures for best 3 models are conduct based on accuracies, confusion matrix, etc.
+    
++ ***Exploitation_on_Transfer Learning_with_Optimization_Covid_19_Image_Classification.[ipynb](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/IPYNB/Exploitation_on_Transfer%20Learning_with_Optimization_Covid_19_Image_Classification.ipynb)/[py](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/PY/exploitation_on_transfer_learning_with_optimization_covid_19_image_classification.py):*** Codes on further exploitation process on optimized transfer learning models found for covid-19 identification.
+  - This python file includes codes for training of optimized transfer learning models found for further 100 epochs.
+  
++ ***Transfer Learning_without_Optimization_Covid_19_Image_Classification.[ipynb](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/IPYNB/Transfer%20Learning_without_Optimization_Covid_19_Image_Classification.ipynb)/[py](https://github.com/jahid-jabed/mh_opt_tl_covid19/blob/main/Codes/PY/transfer_learning_without_optimization_covid_19_image_classification.py):*** Codes on straight forward transfer learning training process for covid-19 identification.
+  - This python file includes codes for training of straight forward transfer learning models without optimization for 300 epochs and saved best models found.
+  - Model construction is done randomly based on fair coin toss.
