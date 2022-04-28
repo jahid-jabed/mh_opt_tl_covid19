@@ -55,4 +55,7 @@
 
 **E. Results and Performance**
   - **Results:** Performance of the Transfer Learning Models with and without Genetic Optimization. <br> ![Results](/Pictures/Results.PNG "Results")
+
+**F. Dependencies**
+  + The dataset importation from Google Drive and saving model data into Google Drive required drive permission.
   
